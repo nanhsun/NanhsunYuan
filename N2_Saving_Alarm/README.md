@@ -8,6 +8,6 @@ To run the script periodically (every 5 minutes), I use the Windows Task Schedul
 Below is the logic flow of the script:
 <br/>
 <br/>
-<img src="pics/LogicFlow.PNG" width="75%">
+<img src="pics/LogicFlow.png" width="75%">
 <br/>
 <br/>
