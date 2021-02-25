@@ -6,7 +6,7 @@ In the past, to find out whether the lots are defected, engineers need to manual
 The Python script I wrote creates a user interface using PySimpleGUI, as shown below. The general function of the program is to read in the aforementioned data, insert tooling number via SQL (the raw data does not contain tooling number, therefore we would not know which tool produces which lot), and find the max values of each time period. Afterwards, user can choose to either see all products' dimensions' trends over time or one product at a time. 
 <br/>
 <br/>
-<img src="pics/User Interface.PNG" width="75%">
+<img src="pics/User Interface.png" width="75%">
 <br/>
 <br/>
 Here I will detail each button's function.
@@ -27,7 +27,7 @@ Here I will detail each button's function.
 Below is an example of using "Generate Plots and Tables" with a selected 80% threshold and 14 days timeframe on SOIC chip.
 <br/>
 <br/>
-<img src="pics/Example.PNG" width="75%">
+<img src="pics/Example.png" width="75%">
 <br/>
 <br/>
 Each plot title shows the selected product, its corresponding tooling number, and pin number. Red lines represent over 50% of points during the last 14 days are higher than threshold, and blue lines represent less than 50% of points during the last 14 days are lower than threshold. These plots clearly tells user which tool needs to be replaced.
@@ -35,7 +35,7 @@ Each plot title shows the selected product, its corresponding tooling number, an
 Below is another example, using the same button function, but this time on a single product.
 <br/>
 <br/>
-<img src="pics/Example2.PNG" width="75%">
+<img src="pics/Example2.png" width="75%">
 <br/>
 <br/>
 This plot shows the limit in red (100%), chosen threshold in green (80%), a regresion line in purple, and the line plot of Tip to Tip percentage. If more than 50% of the points are higher than the threshold, the plot will show an alert title, indicating that the tooling is in need of replacement.
