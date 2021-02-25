@@ -4,6 +4,6 @@ In TI's factory, there may be defected lots produced by machines. Each defected 
 The script uses Selenium to scrap tables from SharePoint and uses Pandas to preprocess the data, then output it into an Excel file shown below:
 <br/>
 <br/>
-<img src="pics/table.PNG" width="75%">
+<img src="pics/table.png" width="75%">
 <br/>
 <br/>
